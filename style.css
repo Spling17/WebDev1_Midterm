@@ -1,45 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size:2.0rem;
-  }
-  p {
-    font-size:1.5rem;
-  }
-  .main-nav {
-    font-size: 1rem;
-    margin-top: 10px;
-  }
-  .main-nav li {
-    margin: 0 20px;
-  }
-  .page-header {
-    flex-direction: column;
-    align-items: center;
-  }
-  .main {
-    flex-direction: column;
-    align-items: center;
-  }
-  .main-img {
-    width: 50%;
-    height: auto;
-    margin-right: 3%;
-  }
-  .content img {
-    width: 50%;
-    height: auto;
-    margin-top: 15px;
-  }
-  .grid {
-    grid-column: auto;
-    grid-row: auto;
-  }
-}
+
 
 /* --------- common ---------*/
 html {
@@ -142,7 +103,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 7vh 5vw;
+  margin: 5% 5%
 }
 
 .main-page {
@@ -204,3 +165,97 @@ hr {
 
 /* --------- footer ---------*/
 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.0rem;
+    max-width: 100%;
+  }
+  h2 {
+    font-size:1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-page {
+    text-align: center;
+    width: 90%;
+    margin-top: 5%;
+    word-break:break-word;
+  }
+  .main-img {
+    width: 90%;
+    height: auto;
+  }
+  .content img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+  /* .grid {
+    grid-column: auto;
+    grid-row: auto;
+  } */
+}
+
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+  h2 {
+    font-size:1rem;
+  }
+  p {
+    font-size:1rem;
+  }
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+  }
+  .main-page {
+    text-align: center;
+    width: 90%;
+    word-break:break-word;
+  }
+  .main-img {
+    width: 100%;
+    height: auto;
+  }
+  .content img {
+    width: 90%;
+    height: auto;
+    margin-top: 15px;
+  }
+  .grid {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
